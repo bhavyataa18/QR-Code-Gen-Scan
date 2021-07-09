@@ -18,16 +18,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalQr">
-        <activity android:name=".ScannerActivity"></activity>
+        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".ScannerActivity" />
+
         <provider
-            android:authorities="com.example.finalqr"
             android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.finalqr"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths"/>
+                android:resource="@xml/provider_paths" />
         </provider>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
