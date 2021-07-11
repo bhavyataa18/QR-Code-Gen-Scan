@@ -33,7 +33,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/rounded_button"
-        android:text="G E N E R A T O R    QR"
+        android:text="G E N E R A T O R  QR"
         android:textColor="#F3F1F3"
         android:gravity="center"
         android:textSize="25sp"
@@ -69,21 +69,21 @@
 
     <Button
         android:id="@+id/scanBtn"
-        android:layout_width="349dp"
-        android:layout_height="55dp"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/rounded_button"
-        android:text="SCAN    QR"
+        android:gravity="center"
+        android:text="SCAN   QR"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="25sp"
-        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/qrPlaceHolder"
-        app:layout_constraintVertical_bias="0.702" />
+        app:layout_constraintVertical_bias="0.688" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
